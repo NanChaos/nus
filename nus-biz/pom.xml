@@ -19,6 +19,11 @@
     <dependencies>
         <dependency>
             <groupId>cn.nanchaos.user</groupId>
+            <artifactId>nus-api</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.nanchaos.user</groupId>
             <artifactId>nus-dao</artifactId>
             <version>${parent.version}</version>
         </dependency>

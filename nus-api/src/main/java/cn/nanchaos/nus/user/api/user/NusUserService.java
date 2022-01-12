@@ -1,4 +1,4 @@
-package cn.nanchaos.nus.user.api;
+package cn.nanchaos.nus.user.api.user;
 
 import cn.nanchaos.nus.response.Result;
 import cn.nanchaos.nus.user.reqdto.NusUserSaveReqDTO;

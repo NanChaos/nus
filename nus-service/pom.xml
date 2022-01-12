@@ -17,9 +17,10 @@
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>cn.nanchaos.user</groupId>
-            <artifactId>nus-api</artifactId>
+            <artifactId>nus-biz</artifactId>
             <version>${parent.version}</version>
         </dependency>
         <dependency>
