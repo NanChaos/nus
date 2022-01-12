@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: nus-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/nus
+    username: username
+    password: password
+
+
+dubbo:
+  application:
+    name: nus-service
+  registry:
+    address: zk
+  protocol:
+    port: 20880
+  scan:
+    base-packages: cn.nanchaos.nus
